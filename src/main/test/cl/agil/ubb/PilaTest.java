@@ -53,5 +53,16 @@ public class PilaTest {
 		assertThat(r, is(2));
 	}
 	
+	@Test
+	public void agregarTresYCuatroYhacerDosPopYdevuelveCuatroYtres(){
+		Pila p= new Pila();
+		p.agregar(3);
+		p.agregar(4);
+		int r=p.pop();
+		int r2=p.pop();
+		String r3= r+" "+ r2;
+		assertThat(r3, is("4 3"));
+	}
+	
 }
 ;

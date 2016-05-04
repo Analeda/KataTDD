@@ -25,9 +25,7 @@ public class Pila {
 		return arr.length;
 	}
 	public int pop(){
-		return arr[num--];
-		
-				
+		return arr[num--];		
 	}
 	
 }

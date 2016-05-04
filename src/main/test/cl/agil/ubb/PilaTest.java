@@ -36,5 +36,12 @@ public class PilaTest {
 		assertThat(r, is(2));
 	}
 
+	@Test
+	public void agregarUnoHacePOPUno(){
+		Pila p= new Pila();
+		p.agregar(1);	
+		int r=p.pop();
+		assertThat(r, is(1));
+	}
 }
 ;

@@ -24,5 +24,10 @@ public class Pila {
 	public int tamaño(){
 		return arr.length;
 	}
+	public int pop(){
+		return arr[num--];
+		
+				
+	}
 	
 }

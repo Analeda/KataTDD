@@ -18,6 +18,15 @@ public class PilaTest {
 		boolean r=p.estaVacia();
 		assertThat(r, is(false));
 	}
+	
+	@Test
+	public void agregarUnoYdos(){
+		Pila p= new Pila();
+		p.agregar(1);
+		p.agregar(2);
+		boolean r=p.estaVacia();
+		assertThat(r, is(false));
+	}
 
 }
 ;

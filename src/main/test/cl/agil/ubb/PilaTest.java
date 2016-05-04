@@ -27,6 +27,14 @@ public class PilaTest {
 		boolean r=p.estaVacia();
 		assertThat(r, is(false));
 	}
+	@Test
+	public void agregarUnoYdosTamañoStackDos(){
+		Pila p= new Pila();
+		p.agregar(1);
+		p.agregar(2);
+		int r=p.tamaño();
+		assertThat(r, is(2));
+	}
 
 }
 ;

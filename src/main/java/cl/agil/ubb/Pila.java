@@ -5,7 +5,7 @@ public class Pila {
 	int [] arr;
 	int num;
 	public Pila(){
-		arr = new int[3];
+		arr = new int[2];
 		num=-1;
 	}
 	
@@ -19,6 +19,10 @@ public class Pila {
 	public void agregar(int num1){
 		num++;
 		arr[num]=num1;
+	}
+	
+	public int tamaño(){
+		return arr.length;
 	}
 	
 }

@@ -10,5 +10,14 @@ public class PilaTest {
 		boolean r=p.estaVacia();
 		assertThat(r,is(true));
 	}
+	
+	@Test
+	public void agregarUno(){
+		Pila p= new Pila();
+		p.agregar(1);
+		boolean r=p.estaVacia();
+		assertThat(r, is(false));
+	}
 
 }
+;

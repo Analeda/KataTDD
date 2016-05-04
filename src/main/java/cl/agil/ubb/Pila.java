@@ -15,4 +15,10 @@ public class Pila {
 		}else
 			return false;
 	}
+	
+	public void agregar(int num1){
+		num++;
+		arr[num]=num1;
+	}
+	
 }

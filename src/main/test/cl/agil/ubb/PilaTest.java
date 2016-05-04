@@ -43,5 +43,15 @@ public class PilaTest {
 		int r=p.pop();
 		assertThat(r, is(1));
 	}
+	
+	@Test
+	public void agregarUnoYDosHacePOPDos(){
+		Pila p= new Pila();
+		p.agregar(1);
+		p.agregar(2);
+		int r=p.pop();
+		assertThat(r, is(2));
+	}
+	
 }
 ;
